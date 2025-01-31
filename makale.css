@@ -1,0 +1,90 @@
+/* Genel resetleme */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #e1bee7;
+    color: var(--text-color);
+}
+
+/* Makale kutusu */
+.article {
+    background-color: #fff; /* Kutu rengini beyaz yapalım */
+    max-width: 720px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; /* Taşmayı engeller */
+}
+
+
+/* Makale resmi */
+.article-image {
+    width: 100%;          /* Resmin genişliği %100 olmalı */
+    height: auto;         /* Yükseklik otomatik */
+    max-height: 250px;    /* Maksimum yükseklik sınırı */
+    object-fit: cover;    /* Resmi kutuya tam uyacak şekilde kesme */
+    border-radius: 10px;  /* Kenarlara yuvarlatma */
+    margin-bottom: 20px;  /* Resim ve içerik arasına boşluk */
+}
+
+/* İçerik kısmı */
+.article-content {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Makale başlığı */
+.article-title {
+    font-size: 20px;  
+    color: #512597da;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Paragraflar */
+.article-text {
+    font-size: 13px;
+    color: #555;
+    margin-top: 20px;   
+    margin-bottom: 20px; 
+    text-align: justify;
+    line-height: 1.7;
+}
+
+/* Responsive düzenleme */
+@media (max-width: 768px) {
+    .article {
+        padding: 10px;
+        margin-bottom: 20px; /* Mobilde daha küçük boşluk */
+    }
+
+    .article-title {
+        font-size: 18px;
+    }
+
+    .article-text {
+        font-size: 14px;
+    }
+
+    .article-image {
+        height: 180px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #512597da;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

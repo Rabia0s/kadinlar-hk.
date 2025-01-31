@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora";
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    background-color: #f2f1f1;
+    color: #512597da; 
+}
+
+
+.about-us-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #512597da;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #7f8c8d;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.about-mission-vision {
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-mission-vision h3 {
+    font-size: 26px;
+    color: #512597da;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.about-mission-vision p {
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.8;
+}
+
+.about-values {
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-values h3 {
+    font-size: 26px;
+    color: #512597da;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.about-values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-values li {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.about-values li i {
+    color: #27ae60;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .intro-text {
+        font-size: 16px;
+    }
+
+    .about-mission-vision h3,
+    .about-values h3 {
+        font-size: 22px;
+    }
+
+    .about-values li {
+        font-size: 14px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #512597da;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

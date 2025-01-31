@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora";
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    background-color: #f2f1f1;
+    color: var(--text-color); 
+}
+
+
+
+/* Destek Al Bölümü */
+.destek-al {
+    background-color: #f1f1f1;
+    padding: 60px 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.destek-baslik {
+    font-size: 30px;
+    color: rgba(128, 0, 128, 0.758);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.destek-aciklama {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.destek-bilgileri {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.destek-bilgileri h3 {
+    font-size: 24px;
+    color: rgba(128, 0, 128, 0.758);
+    margin-bottom: 15px;
+}
+
+.destek-bilgileri .bilgi-aciklama {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.telefon h4 {
+    font-size: 20px;
+    color: #333;
+}
+
+.telefon p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.telefon p strong {
+    color: rgba(128, 0, 128, 0.758);
+    font-weight: bold;
+}
+
+.destek-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.destek-form h3 {
+    font-size: 24px;
+    color: rgba(128, 0, 128, 0.758);
+    margin-bottom: 20px;
+}
+
+.destek-form p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.destek-form label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.destek-form input,
+.destek-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.destek-form button {
+    background-color: rgba(128, 0, 128, 0.758);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.destek-form button:hover {
+    background-color: rgba(128, 0, 128, 0.758);
+}
+
+.bilgi-kaynaklari h3 {
+    font-size: 24px;
+    color: rgba(128, 0, 128, 0.758);
+    margin-top: 40px;
+}
+
+.bilgi-kaynaklari p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.bilgi-kaynaklari ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bilgi-kaynaklari ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.bilgi-kaynaklari ul li a {
+    color: rgba(128, 0, 128, 0.758);
+    text-decoration: none;
+}
+
+.bilgi-kaynaklari ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #512597da;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
